@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libSKILLS_LIB.a"
+)

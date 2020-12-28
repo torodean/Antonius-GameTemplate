@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GameEngine"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Characters\;CMake Files\Classes\;CMake Files\Effects\;CMake Files\Logistics\;CMake Files\Objects\;CMake Files\Objects\Consumables\;CMake Files\Objects\Equipment\;CMake Files\Objects\Items\;CMake Files\Objects\Weapons\;CMake Files\Professions\;CMake Files\Races\;CMake Files\Skills\;CMake Files\Toolkit\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameEngine">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/GameEngine.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 GameEngine"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameEngine/fast">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/GameEngine.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 GameEngine/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CHARACTER_LIB">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Characters/libCHARACTER_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Characters"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Characters/Makefile&quot;  VERBOSE=1 CHARACTER_LIB"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Characters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Characters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Characters/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CHARACTER_LIB/fast">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Characters/libCHARACTER_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Characters"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Characters/Makefile&quot;  VERBOSE=1 CHARACTER_LIB/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Characters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Characters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Characters/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STATUSEFFECT_LIB">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Effects/libSTATUSEFFECT_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Effects"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Effects/Makefile&quot;  VERBOSE=1 STATUSEFFECT_LIB"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Effects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Effects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Effects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STATUSEFFECT_LIB/fast">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Effects/libSTATUSEFFECT_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Effects"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Effects/Makefile&quot;  VERBOSE=1 STATUSEFFECT_LIB/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Effects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Effects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Effects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LOGISTICS_LIB">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Logistics/libLOGISTICS_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Logistics"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Logistics/Makefile&quot;  VERBOSE=1 LOGISTICS_LIB"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Logistics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Logistics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Logistics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LOGISTICS_LIB/fast">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Logistics/libLOGISTICS_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Logistics"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Logistics/Makefile&quot;  VERBOSE=1 LOGISTICS_LIB/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Logistics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Logistics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Logistics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PROFESSIONS_LIB">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Professions/libPROFESSIONS_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Professions"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Professions/Makefile&quot;  VERBOSE=1 PROFESSIONS_LIB"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Professions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Professions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Professions/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PROFESSIONS_LIB/fast">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Professions/libPROFESSIONS_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Professions"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Professions/Makefile&quot;  VERBOSE=1 PROFESSIONS_LIB/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Professions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Professions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Professions/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SKILLS_LIB">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Skills/libSKILLS_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Skills"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Skills/Makefile&quot;  VERBOSE=1 SKILLS_LIB"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Skills/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Skills/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Skills/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SKILLS_LIB/fast">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Skills/libSKILLS_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Skills"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Skills/Makefile&quot;  VERBOSE=1 SKILLS_LIB/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Skills/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Skills/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Skills/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TOOLKIT_LIB">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Toolkit/libTOOLKIT_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Toolkit"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Toolkit/Makefile&quot;  VERBOSE=1 TOOLKIT_LIB"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Toolkit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Toolkit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Toolkit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TOOLKIT_LIB/fast">
+				<Option output="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Toolkit/libTOOLKIT_LIB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Toolkit"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Toolkit/Makefile&quot;  VERBOSE=1 TOOLKIT_LIB/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Toolkit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Toolkit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/home/d0sag3/Antonius-GameTemplate/cmake-build-debug/Toolkit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Characters/CharacterBase.cpp">
+			<Option target="CHARACTER_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Characters/CharacterBase.h">
+			<Option target="CHARACTER_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Characters/CharacterNPC.cpp">
+			<Option target="CHARACTER_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Characters/CharacterNPC.h">
+			<Option target="CHARACTER_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Characters/CharacterPlayer.cpp">
+			<Option target="CHARACTER_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Characters/CharacterPlayer.h">
+			<Option target="CHARACTER_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Effects/StatusEffectBase.cpp">
+			<Option target="STATUSEFFECT_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Effects/StatusEffectBase.h">
+			<Option target="STATUSEFFECT_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Logistics/Currency.cpp">
+			<Option target="LOGISTICS_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Logistics/Currency.h">
+			<Option target="LOGISTICS_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Logistics/StatBlock.cpp">
+			<Option target="LOGISTICS_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Logistics/StatBlock.h">
+			<Option target="LOGISTICS_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Professions/ProfessionBase.cpp">
+			<Option target="PROFESSIONS_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Professions/ProfessionBase.h">
+			<Option target="PROFESSIONS_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Skills/SkillBase.cpp">
+			<Option target="SKILLS_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Skills/SkillBase.h">
+			<Option target="SKILLS_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Skills/WeaponSkill.cpp">
+			<Option target="SKILLS_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Skills/WeaponSkill.h">
+			<Option target="SKILLS_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Toolkit/Time.cpp">
+			<Option target="TOOLKIT_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Toolkit/Time.h">
+			<Option target="TOOLKIT_LIB"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/main.cpp">
+			<Option target="GameEngine"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Characters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Characters\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Classes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Classes\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Effects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Effects\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Logistics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Logistics\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Objects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Objects\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Objects/Consumables/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Objects\Consumables\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Objects/Equipment/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Objects\Equipment\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Objects/Items/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Objects\Items\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Objects/Weapons/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Objects\Weapons\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Professions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Professions\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Races/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Races\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Skills/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Skills\"/>
+		</Unit>
+		<Unit filename="/home/d0sag3/Antonius-GameTemplate/Toolkit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Toolkit\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

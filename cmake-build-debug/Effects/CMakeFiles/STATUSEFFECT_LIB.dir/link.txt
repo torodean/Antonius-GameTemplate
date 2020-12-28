@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libSTATUSEFFECT_LIB.a  CMakeFiles/STATUSEFFECT_LIB.dir/StatusEffectBase.cpp.o
+/usr/bin/ranlib.exe libSTATUSEFFECT_LIB.a

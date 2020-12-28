@@ -1,0 +1,8 @@
+//
+// Created by d0sag3 on 12/28/2020.
+//
+
+#ifndef GAMEENGINE_CHARACTERNPC_H
+#define GAMEENGINE_CHARACTERNPC_H
+
+#endif //GAMEENGINE_CHARACTERNPC_H

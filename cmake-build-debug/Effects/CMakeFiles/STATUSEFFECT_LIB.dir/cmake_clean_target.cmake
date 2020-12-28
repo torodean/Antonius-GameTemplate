@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libSTATUSEFFECT_LIB.a"
+)

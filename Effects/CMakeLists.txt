@@ -1,0 +1,5 @@
+
+set(STATUSEFFECT_SRC StatusEffectBase.cpp)
+set(STATUSEFFECT_HDR StatusEffectBase.h)
+
+add_library(STATUSEFFECT_LIB "${STATUSEFFECT_SRC};${STATUSEFFECT_HDR}")

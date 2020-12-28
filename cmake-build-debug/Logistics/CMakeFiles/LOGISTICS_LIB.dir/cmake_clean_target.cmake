@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libLOGISTICS_LIB.a"
+)

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/GameEngine.dir/main.cpp.o  -o GameEngine.exe -Wl,--out-implib,libGameEngine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
