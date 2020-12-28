@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(Characters)
 add_subdirectory(Classes)
+add_subdirectory(Editor)
 add_subdirectory(Effects)
 add_subdirectory(Logistics)
 add_subdirectory(Objects)

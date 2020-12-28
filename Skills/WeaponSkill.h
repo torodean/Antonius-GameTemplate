@@ -16,12 +16,14 @@ class WeaponSkill : public SkillBase
 public:
 
     /// Main constructor for a WeaponSkill object.
-    WeaponSkill() : weaponSkillType(UNKNOWNSKILL), skillName("Unknown") {};
+    WeaponSkill() : weaponSkillType(UNKNOWNSKILL), weaponSkillName("Unknown") {};
 
     explicit WeaponSkill(std::string skillName);
 
     /// Main destructor for a WeaponSkill object.
     ~WeaponSkill() = default;
+
+protected:
 
     /// This is an enum for each type of weapon skill.
     enum WeaponSkillType
@@ -42,14 +44,13 @@ public:
         STONES = 12,
         BOWS = 13,
         CROSSBOWS = 14,
-        GUNS = 15,
+        RIFLES = 15,
         PISTOLS = 16,
         THROWINGKNIVES = 17,
         THROWINGSTARS = 18,
-        DARTS = 19
+        DARTS = 19,
+        SLINGS = 20
     };
-
-protected:
 
     /**
      * This will convert the WeaponSkill::WeaponSkillType to a readable string representation.

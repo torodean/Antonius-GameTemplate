@@ -30,11 +30,12 @@ std::string WeaponSkill::typeToName(WeaponSkill::WeaponSkillType type)
         case STONES: return "Stones";
         case BOWS: return "Bows";
         case CROSSBOWS: return "Crossbows";
-        case GUNS: return "Guns";
+        case RIFLES: return "Rifles";
         case PISTOLS: return "Pistols";
         case THROWINGKNIVES: return "Throwing Knives";
         case THROWINGSTARS: return "Throwing Stars";
         case DARTS: return "Darts";
+        case SLINGS: return "Slings";
         case UNKNOWNSKILL:
         default: return "Unknown";
     }
@@ -101,9 +102,9 @@ WeaponSkill::WeaponSkillType WeaponSkill::nameToType(const std::string& name) {
     {
         return CROSSBOWS;
     }
-    else if(name == "Guns")
+    else if(name == "Rifles")
     {
-        return GUNS;
+        return RIFLES;
     }
     else if(name == "Pistols")
     {
@@ -120,6 +121,10 @@ WeaponSkill::WeaponSkillType WeaponSkill::nameToType(const std::string& name) {
     else if(name == "Darts")
     {
         return DARTS;
+    }
+    else if(name == "Slings")
+    {
+        return SLINGS;
     }
     else
     {

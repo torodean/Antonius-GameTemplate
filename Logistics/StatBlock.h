@@ -20,6 +20,18 @@ public:
 
 protected:
 
+    struct Resistances
+    {
+        unsigned int piercing{};
+        unsigned int slashing{};
+        unsigned int bludgeoning{};
+        unsigned int fire{};
+        unsigned int frost{};
+        unsigned int nature{};
+        unsigned int arcane{};
+        unsigned int shadow{};
+    };
+
     /// An object to hold stats related to defense.
     struct DefensiveStats
     {
@@ -29,6 +41,7 @@ protected:
         unsigned int parry{};
         unsigned int block{};
         unsigned int Avoidance{};
+        Resistances resistances{};
     };
 
     /// An object to hold primary stats.
