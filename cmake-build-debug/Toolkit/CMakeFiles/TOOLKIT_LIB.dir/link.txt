@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libTOOLKIT_LIB.a  CMakeFiles/TOOLKIT_LIB.dir/Time.cpp.o
-/usr/bin/ranlib.exe libTOOLKIT_LIB.a

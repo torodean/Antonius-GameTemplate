@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libPROFESSIONS_LIB.a"
-)

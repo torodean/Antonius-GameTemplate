@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libPROFESSIONS_LIB.a  CMakeFiles/PROFESSIONS_LIB.dir/ProfessionBase.cpp.o
-/usr/bin/ranlib.exe libPROFESSIONS_LIB.a

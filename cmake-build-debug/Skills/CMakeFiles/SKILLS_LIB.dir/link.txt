@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libSKILLS_LIB.a  CMakeFiles/SKILLS_LIB.dir/SkillBase.cpp.o CMakeFiles/SKILLS_LIB.dir/WeaponSkill.cpp.o
-/usr/bin/ranlib.exe libSKILLS_LIB.a

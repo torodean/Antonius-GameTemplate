@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libLOGISTICS_LIB.a  CMakeFiles/LOGISTICS_LIB.dir/Currency.cpp.o CMakeFiles/LOGISTICS_LIB.dir/StatBlock.cpp.o
-/usr/bin/ranlib.exe libLOGISTICS_LIB.a
