@@ -9,6 +9,7 @@
 #include <map>
 #include "../Logistics/Currency.h"
 #include "../Skills/WeaponSkill.h"
+#include "../Objects/Equipment/ArmorBase.h"
 #include "CharacterBase.h"
 
 class CharacterPlayer : public CharacterBase
@@ -27,6 +28,7 @@ private:
 
     Currency currency;
     std::map<WeaponSkill::WeaponSkillType, WeaponSkill> weaponSkills;
+    std::map<ArmorBase::ArmorType, ArmorBase> armor;
 
 };
 

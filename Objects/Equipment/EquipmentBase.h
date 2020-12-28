@@ -24,22 +24,22 @@ public:
     /// The various types of equipment.
     enum EquipmentType
     {
-        UNKNOWN = -1,
-        ARMOR = 0,
-        WEAPON = 1,
-        OFFHAND = 2,
+        UNKNOWN,
+        ARMOR,
+        WEAPON,
+        OFFHAND,
     };
 
     enum EquipmentRarity
     {
-        JUNK = 0,
-        COMMON = 1,
-        UNCOMMON = 2,
-        RARE = 3,
-        EPIC = 4,
-        LEGENDARY = 5,
-        ARTIFACT = 6,
-        CRAFTED = 7
+        JUNK,
+        COMMON,
+        UNCOMMON,
+        RARE,
+        EPIC,
+        LEGENDARY,
+        ARTIFACT,
+        CRAFTED
     };
 
     bool isWeapon() const { return equipmentType == WEAPON; };

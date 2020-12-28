@@ -19,20 +19,20 @@ public:
 
     enum ArmorType
     {
-        UNKNOWN = -1,
-        HEAD = 0,
-        NECKLACE = 1,
-        SHOULDERS = 2,
-        BACK = 3,
-        CHEST = 4,
-        SHIRT = 5,
-        BRACERS = 6,
-        HANDS = 7,
-        BELT = 8,
-        LEGS = 9,
-        FEET = 10,
-        RINGS = 11,
-        TRINKET = 12,
+        UNKNOWN,
+        HEAD,
+        NECKLACE,
+        SHOULDERS,
+        BACK,
+        CHEST,
+        SHIRT,
+        BRACERS,
+        HANDS,
+        BELT,
+        LEGS,
+        FEET,
+        RINGS,
+        TRINKET
     };
 
 protected:

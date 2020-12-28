@@ -23,8 +23,6 @@ public:
     /// Main destructor for a WeaponSkill object.
     ~WeaponSkill() = default;
 
-protected:
-
     /// This is an enum for each type of weapon skill.
     enum WeaponSkillType
     {
@@ -51,6 +49,8 @@ protected:
         DARTS = 19,
         SLINGS = 20
     };
+
+protected:
 
     /**
      * This will convert the WeaponSkill::WeaponSkillType to a readable string representation.

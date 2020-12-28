@@ -29,9 +29,9 @@ public:
     /// This is an enum to determine what category of skill is being stored.
     enum SkillType
     {
-        UNKNOWNSKILL = -1,
-        MELEEWEAPONSKILL = 0,
-        RANGEDWEAPONSKILL = 1
+        UNKNOWNSKILL,
+        MELEEWEAPONSKILL,
+        RANGEDWEAPONSKILL
     };
 
     /// Returns the skillLevel for the skill object.
