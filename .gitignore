@@ -5,3 +5,4 @@
 *.o
 
 cmake-build-debug
+.idea
