@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libCHARACTER_LIB.a"
+)

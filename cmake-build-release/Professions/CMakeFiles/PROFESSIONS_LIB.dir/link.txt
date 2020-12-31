@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libPROFESSIONS_LIB.a  CMakeFiles/PROFESSIONS_LIB.dir/ProfessionBase.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libPROFESSIONS_LIB.a

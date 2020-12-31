@@ -1,8 +1,14 @@
 cmake_minimum_required(VERSION 3.16)
-project(GameEngine)
+project(GameEngine VERSION 0.0.1 LANGUAGES CXX)
 
+# Sets the C++ standard to C++20
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+#set(CMAKE_PREFIX_PATH "C:/Qt/5.15.2/mingw81_64")
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
+
+# Include subdirectories.
 add_subdirectory(Characters)
 add_subdirectory(Classes)
 add_subdirectory(Editor)

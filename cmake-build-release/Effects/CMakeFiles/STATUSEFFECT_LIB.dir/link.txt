@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libSTATUSEFFECT_LIB.a  CMakeFiles/STATUSEFFECT_LIB.dir/StatusEffectBase.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libSTATUSEFFECT_LIB.a

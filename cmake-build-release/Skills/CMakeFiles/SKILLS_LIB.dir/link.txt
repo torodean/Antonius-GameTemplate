@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libSKILLS_LIB.a  CMakeFiles/SKILLS_LIB.dir/SkillBase.cpp.obj CMakeFiles/SKILLS_LIB.dir/WeaponSkill.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libSKILLS_LIB.a

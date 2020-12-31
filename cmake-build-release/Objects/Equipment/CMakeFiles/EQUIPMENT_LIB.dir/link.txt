@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libEQUIPMENT_LIB.a  CMakeFiles/EQUIPMENT_LIB.dir/EquipmentBase.cpp.obj CMakeFiles/EQUIPMENT_LIB.dir/WeaponBase.cpp.obj CMakeFiles/EQUIPMENT_LIB.dir/ArmorBase.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libEQUIPMENT_LIB.a

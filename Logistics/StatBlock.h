@@ -30,6 +30,7 @@ protected:
         unsigned int nature{};
         unsigned int arcane{};
         unsigned int shadow{};
+        unsigned int holy{};
     };
 
     /// An object to hold stats related to defense.
