@@ -1,2 +1,0 @@
-C:\msys64\mingw64\bin\ar.exe qc libCHARACTER_LIB.a  CMakeFiles/CHARACTER_LIB.dir/CharacterBase.cpp.obj CMakeFiles/CHARACTER_LIB.dir/CharacterNPC.cpp.obj CMakeFiles/CHARACTER_LIB.dir/CharacterPlayer.cpp.obj
-C:\msys64\mingw64\bin\ranlib.exe libCHARACTER_LIB.a

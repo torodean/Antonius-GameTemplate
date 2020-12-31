@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\WorldEditor.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\WorldEditor.dir/objects.a @CMakeFiles\WorldEditor.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles\WorldEditor.dir/objects.a -Wl,--no-whole-archive  -o WorldEditor.exe -Wl,--out-implib,libWorldEditor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\WorldEditor.dir\linklibs.rsp

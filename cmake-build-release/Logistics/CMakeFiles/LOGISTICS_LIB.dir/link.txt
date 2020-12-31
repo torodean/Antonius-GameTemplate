@@ -1,2 +1,0 @@
-C:\msys64\mingw64\bin\ar.exe qc libLOGISTICS_LIB.a  CMakeFiles/LOGISTICS_LIB.dir/Currency.cpp.obj CMakeFiles/LOGISTICS_LIB.dir/StatBlock.cpp.obj CMakeFiles/LOGISTICS_LIB.dir/ReputationBase.cpp.obj
-C:\msys64\mingw64\bin\ranlib.exe libLOGISTICS_LIB.a

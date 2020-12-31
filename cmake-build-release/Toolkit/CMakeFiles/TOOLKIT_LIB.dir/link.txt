@@ -1,2 +1,0 @@
-C:\msys64\mingw64\bin\ar.exe qc libTOOLKIT_LIB.a  CMakeFiles/TOOLKIT_LIB.dir/Time.cpp.obj
-C:\msys64\mingw64\bin\ranlib.exe libTOOLKIT_LIB.a
