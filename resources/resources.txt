@@ -1,0 +1,11 @@
+Building a CLion + GTK3 environment under Windows using MSYS
+https://www.programmersought.com/article/6861129089/
+
+GTK3 reference manual
+https://developer.gnome.org/gtk3/stable/GtkBuilder.html
+
+Glade and Gtk.Builder
+https://python-gtk-3-tutorial.readthedocs.io/en/latest/builder.html
+
+Glade: GUI designer
+https://glade.gnome.org/

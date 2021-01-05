@@ -3,8 +3,7 @@
 # Author      : Antonius Torode
 # Copyright   : This file can be used under the conditions of Antonius' 
 #				 General Purpose License (AGPL).
-# Description : README
+# Description : README Template
 #============================================================================
 
-# GameTemplate
-A game framework
+The top level images folder is for image development or use. These would be different than images used in the documentation.
